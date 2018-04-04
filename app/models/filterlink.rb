@@ -1,0 +1,2 @@
+class Filterlink < ApplicationRecord
+end

@@ -1,0 +1,141 @@
+<head>
+<style>
+
+#td-left
+  {
+   border-right: 5px solid #6a99c8;
+   border-bottom: 1px  solid #6a99c8;
+   border-collapse: collapse; 
+   padding-right: 15px; 
+   padding-bottom: 4px; 
+   padding-top: 4px;      
+   font-size: 15px;  
+   text-align: right;  
+   }
+
+#td-right
+  {
+   border-bottom: 1px solid #6a99c8;
+   padding-left: 15px;  
+   font-size: 15px; 
+   text-align: left; 
+   padding-bottom: 4px; 
+   padding-top: 4px;     
+  }
+
+table#t01 tr:nth-child(even) {
+      background-color: #fff;
+    }
+
+table#t01 tr:nth-child(odd) {
+      background-color:#eee;
+       }
+
+
+</style>
+</head>
+
+<body>
+
+<p id="notice"><%= notice %></p>
+
+
+<table align="center" id="t01">
+  <tr>
+    <td id="td-left"> 
+      <%= link_to 'მთავარ გვერძე დაბრუნება', filtercoparts_path, class: "btn btn-xs btn-success"  %>
+    </td> 
+    <td id="td-right">
+      <%= link_to 'ჩანაწერის რედაქტირება',  edit_filtercopart_path(@filtercopart) , class: "btn btn-xs btn-primary" %>
+    </td>
+  </tr> 
+  <tr>
+    <td id="td-left"></td> 
+    <td id="td-right"></td>
+  </tr> 
+
+  <tr>
+    <td id="td-left">Record status:</td> 
+    <td id="td-right"><%= @filtercopart.record_status %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Vechile type:</td> 
+    <td id="td-right"><%= @filtercopart.vechile_type %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Year:</td> 
+    <td id="td-right"><%= @filtercopart.year %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Make:</td> 
+    <td id="td-right"> <%= @filtercopart.make %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Model group:</td> 
+    <td id="td-right"> <%= @filtercopart.model_group %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Model detail:</td> 
+    <td id="td-right"> <%= @filtercopart.model_detail %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Damage description:</td> 
+    <td id="td-right"><%= @filtercopart.damage_description %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Lot cond:</td> 
+    <td id="td-right">  <%= @filtercopart.lot_cond %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Odometer:</td> 
+    <td id="td-right">  <%= @filtercopart.odometer %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Engine:</td> 
+    <td id="td-right">   <%= @filtercopart.engine %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Drive:</td> 
+    <td id="td-right">   <%= @filtercopart.drive %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Transmission:</td> 
+    <td id="td-right">    <%= @filtercopart.transmission %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Fuel type:</td> 
+    <td id="td-right">      <%= @filtercopart.fuel_type %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Runs drives:</td> 
+    <td id="td-right">  <%= @filtercopart.runs_drives %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Location city:</td> 
+    <td id="td-right">  <%= @filtercopart.location_city %></td>
+  </tr>
+
+  <tr>
+    <td id="td-left">Buy it now price</td> 
+    <td id="td-right">  <%= @filtercopart.buy_it_now_price %></td>
+  </tr>
+
+
+</table>
+
+</body>
+

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  record_status: MyString
+  lot_n: MyString
+  row_hash: MyText
+  lot_img_fld: MyString
+
+two:
+  record_status: MyString
+  lot_n: MyString
+  row_hash: MyText
+  lot_img_fld: MyString

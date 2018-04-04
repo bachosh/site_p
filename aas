@@ -1,0 +1,1043 @@
+=> [1;34m#(Document:0x12a8874 {[0m
+  name = [31m[1;31m"[0m[31mdocument[1;31m"[0m[31m[0m,
+  children = [
+    [1;34m#(DTD:0x129b3cc {[0m name = [31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m }),
+    [1;34m#(Element:0x1297dbc {[0m
+      name = [31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m,
+      children = [
+        [1;34m#(Element:0x128cbec {[0m
+          name = [31m[1;31m"[0m[31mhead[1;31m"[0m[31m[0m,
+          children = [
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+            [1;34m#(Element:0x1272b48 {[0m name = [31m[1;31m"[0m[31mtitle[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mBitNews[1;31m"[0m[31m[0m)] }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+            [1;34m#(Element:0x123a07c {[0m
+              name = [31m[1;31m"[0m[31mlink[1;31m"[0m[31m[0m,
+              attributes = [
+                [1;34m#(Attr:0x1230c0c {[0m name = [31m[1;31m"[0m[31mrel[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mstylesheet[1;31m"[0m[31m[0m }),
+                [1;34m#(Attr:0x1230be4 {[0m name = [31m[1;31m"[0m[31mmedia[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mall[1;31m"[0m[31m[0m }),
+                [1;34m#(Attr:0x1230b6c {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/assets/application-aba1488d376a18829475ec127d6a8f89489faf2ed8e73219a0d24791cce0235c.css[1;31m"[0m[31m[0m }),
+                [1;34m#(Attr:0x1230b30 {[0m name = [31m[1;31m"[0m[31mdata-turbolinks-track[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtrue[1;31m"[0m[31m[0m })]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+            [1;34m#(Element:0xfa1720 {[0m
+              name = [31m[1;31m"[0m[31mscript[1;31m"[0m[31m[0m,
+              attributes = [
+                [1;34m#(Attr:0xf9a100 {[0m name = [31m[1;31m"[0m[31msrc[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/assets/application-e5d6f2ded0d1c23115f70564fd5aca2893b0068e74ad2b78a6a252de1c97295e.js[1;31m"[0m[31m[0m }),
+                [1;34m#(Attr:0xf9a0ec {[0m name = [31m[1;31m"[0m[31mdata-turbolinks-track[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtrue[1;31m"[0m[31m[0m })]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+            [1;34m#(Element:0xf1f900 {[0m
+              name = [31m[1;31m"[0m[31mmeta[1;31m"[0m[31m[0m,
+              attributes = [ [1;34m#(Attr:0xf128e0 {[0m name = [31m[1;31m"[0m[31mname[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcsrf-param[1;31m"[0m[31m[0m }), [1;34m#(Attr:0xf128b8 {[0m name = [31m[1;31m"[0m[31mcontent[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mauthenticity_token[1;31m"[0m[31m[0m })]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+            [1;34m#(Element:0xe693a8 {[0m
+              name = [31m[1;31m"[0m[31mmeta[1;31m"[0m[31m[0m,
+              attributes = [
+                [1;34m#(Attr:0xe63ad4 {[0m name = [31m[1;31m"[0m[31mname[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcsrf-token[1;31m"[0m[31m[0m }),
+                [1;34m#(Attr:0xe63ac0 {[0m name = [31m[1;31m"[0m[31mcontent[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbJBihD4lenUB4Vnpz80MlecObCwxjF4MfeSv9dStICzJbw5LfIwEuBjVxcVZGS3upKFFZc3rqxc9KPHsOVWF9A==[1;31m"[0m[31m[0m })]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+            [1;34m#(Element:0xe16680 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, children = [ [1;34m#(CDATA [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    body {[1;35m\n[0m[31m        background-color: #E8E8F0;[1;35m\n[0m[31m    }[1;35m\n[0m[31m[1;31m"[0m[31m[0m)] }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+          }),
+        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+        [1;34m#(Element:0xaaf244 {[0m
+          name = [31m[1;31m"[0m[31mbody[1;31m"[0m[31m[0m,
+          children = [
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+            [1;34m#(Comment [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m<head>[1;35m\n[0m[31m  <script src=[1;35m\"[0m[31mhttps://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js[1;35m\"[0m[31m></script>[1;35m\n[0m[31m  <script src=[1;35m\"[0m[31mhttp://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js[1;35m\"[0m[31m></script>[1;35m\n[0m[31m</head>[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+            [1;34m#(Element:0x869930 {[0m
+              name = [31m[1;31m"[0m[31mnav[1;31m"[0m[31m[0m,
+              attributes = [ [1;34m#(Attr:0x8063f8 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnavbar navbar-default[1;31m"[0m[31m[0m })],
+              children = [
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1d24b40 {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0x1d21cb0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcontainer-fluid[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                    [1;34m#(Comment [0m[31m[1;31m"[0m[31m Brand and toggle get grouped for better mobile display [1;31m"[0m[31m[0m),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x1d03e40 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0x1d0220c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnavbar-header[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+                        [1;34m#(Element:0x1cf1754 {[0m
+                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                          attributes = [
+                            [1;34m#(Attr:0x1cf04d0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnavbar-brand[1;31m"[0m[31m[0m }),
+                            [1;34m#(Attr:0x1cf04bc {[0m name = [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mlogo[1;31m"[0m[31m[0m }),
+                            [1;34m#(Attr:0x1cf04a8 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/about[1;31m"[0m[31m[0m })],
+                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mBitNews[1;31m"[0m[31m[0m)]
+                          }),
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m)]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                    [1;34m#(Comment [0m[31m[1;31m"[0m[31m Collect the nav links, forms, and other content for toggling [1;31m"[0m[31m[0m),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x1cb2e64 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [
+                        [1;34m#(Attr:0x1cb2054 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcollapse navbar-collapse[1;31m"[0m[31m[0m }),
+                        [1;34m#(Attr:0x1cb2040 {[0m name = [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbs-example-navbar-collapse-1[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+                        [1;34m#(Element:0x1ca4314 {[0m
+                          name = [31m[1;31m"[0m[31mul[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0x1c9cc04 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnav navbar-nav[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1c76c0c {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1c75b18 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdropdown[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1c60b3c {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [
+                                    [1;34m#(Attr:0x1c5b0c4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m#[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1c5b0b0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdropdown-toggle[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1c5b09c {[0m name = [31m[1;31m"[0m[31mdata-toggle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdropdown[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1c5b088 {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbutton[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1c5b038 {[0m name = [31m[1;31m"[0m[31maria-haspopup[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtrue[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1c5b024 {[0m name = [31m[1;31m"[0m[31maria-expanded[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mfalse[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31mსიახლეები [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1c1c194 {[0m name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m, attributes = [ [1;34m#(Attr:0x1c14c28 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcaret[1;31m"[0m[31m[0m })] })]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1bf7da8 {[0m
+                                  name = [31m[1;31m"[0m[31mul[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1bf2e48 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdropdown-menu[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Comment [0m[31m[1;31m"[0m[31m <li><a href=[1;35m\"[0m[31m#[1;35m\"[0m[31m>N</a></li> [1;31m"[0m[31m[0m),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1bcf5d8 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Element:0x1bc3bfc {[0m
+                                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                          attributes = [ [1;34m#(Attr:0x1bc2298 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles[1;31m"[0m[31m[0m })],
+                                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mდაფა[1;31m"[0m[31m[0m)]
+                                          }),
+                                        [1;34m#(Text [0m[31m[1;31m"[0m[31m  [1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1ba3d70 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x1ba28f8 {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mseparator[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1ba28e4 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdivider[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1b742a0 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1b73224 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdropdown[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1b5be94 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [
+                                    [1;34m#(Attr:0x1b5b1c4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m#[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1b5b1b0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdropdown-toggle[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1b5b188 {[0m name = [31m[1;31m"[0m[31mdata-toggle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdropdown[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1b5b174 {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbutton[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1b5b160 {[0m name = [31m[1;31m"[0m[31maria-haspopup[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtrue[1;31m"[0m[31m[0m }),
+                                    [1;34m#(Attr:0x1b5b14c {[0m name = [31m[1;31m"[0m[31maria-expanded[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mfalse[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31mკატეგორია [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1b1a3f4 {[0m name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m, attributes = [ [1;34m#(Attr:0x1b102dc {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcaret[1;31m"[0m[31m[0m })] })]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1af7c28 {[0m
+                                  name = [31m[1;31m"[0m[31mul[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1af5a7c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdropdown-menu[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Comment [0m[31m[1;31m"[0m[31m <li><a href=[1;35m\"[0m[31m#[1;35m\"[0m[31m>N</a></li> [1;31m"[0m[31m[0m),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1abd7a8 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                                        [1;34m#(Element:0x1ab93b0 {[0m
+                                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                          attributes = [ [1;34m#(Attr:0x1ab84d8 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories[1;31m"[0m[31m[0m })],
+                                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mყველა კატეგორია[1;31m"[0m[31m[0m)]
+                                          })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1a90960 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x1a8f268 {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mseparator[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1a8f22c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdivider[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1a6f6e8 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Element:0x1a6cce0 {[0m
+                                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                          attributes = [ [1;34m#(Attr:0x1a6c484 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/1[1;31m"[0m[31m[0m })],
+                                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკრიპტოვალუტა[1;31m"[0m[31m[0m)]
+                                          })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1a53254 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x1a4c1d4 {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mseparator[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1a4c1c0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdivider[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1a26f88 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Element:0x1a24170 {[0m
+                                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                          attributes = [ [1;34m#(Attr:0x1a23504 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/2[1;31m"[0m[31m[0m })],
+                                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკრიპტო ბირჟა[1;31m"[0m[31m[0m)]
+                                          })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1a1899c {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x1a177f4 {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mseparator[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1a177e0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdivider[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x19e8184 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Element:0x19dea44 {[0m
+                                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                          attributes = [ [1;34m#(Attr:0x19ddfcc {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/3[1;31m"[0m[31m[0m })],
+                                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკიბერუსაფრთხოება[1;31m"[0m[31m[0m)]
+                                          })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x19cfeb8 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x19ced10 {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mseparator[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x19cec84 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdivider[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x19c4040 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Element:0x19c213c {[0m
+                                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                          attributes = [ [1;34m#(Attr:0x19c15c0 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/4[1;31m"[0m[31m[0m })],
+                                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკრიპტო ბოტი[1;31m"[0m[31m[0m)]
+                                          })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x19ab1d0 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x19a9d1c {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mseparator[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x19a9ccc {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdivider[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x199e674 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Element:0x199bd34 {[0m
+                                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                          attributes = [ [1;34m#(Attr:0x199a95c {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/5[1;31m"[0m[31m[0m })],
+                                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკომპიუტერული ტექნიკა[1;31m"[0m[31m[0m)]
+                                          })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x13a004c {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x138655c {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mseparator[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1386444 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdivider[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x12f7690 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Element:0x12f14fc {[0m
+                                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                          attributes = [ [1;34m#(Attr:0x12ef134 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/6[1;31m"[0m[31m[0m })],
+                                          children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mმაინინგი[1;31m"[0m[31m[0m)]
+                                          })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                          [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x129c8e4 {[0m
+                                      name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x129ac9c {[0m name = [31m[1;31m"[0m[31mrole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mseparator[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x129ac88 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mdivider[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;35m\n[0m[31m                [1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m             [1;35m\n[0m[31m              [1;35m\n[0m[31m    [1;35m\n[0m[31m      [1;31m"[0m[31m[0m)]
+                          }),
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m   [1;31m"[0m[31m[0m),
+                        [1;34m#(Element:0x1223f98 {[0m
+                          name = [31m[1;31m"[0m[31mul[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0x1221d88 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnav navbar-nav navbar-right[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x11d7170 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Element:0x11cd6c0 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x11ccbf8 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcolor:#fff;[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x11ccbe4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/login[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mშესვლა[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0xf8b178 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Element:0xf78794 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0xf766b0 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcolor:#fff;[1;31m"[0m[31m[0m }), [1;34m#(Attr:0xf7669c {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/signup[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mრეგისტრაცია[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;35m\n[0m[31m      [1;31m"[0m[31m[0m)]
+                          }),
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m)]
+                      }),
+                    [1;34m#(Comment [0m[31m[1;31m"[0m[31m /.navbar-collapse [1;31m"[0m[31m[0m),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Comment [0m[31m[1;31m"[0m[31m /.container-fluid [1;31m"[0m[31m[0m),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+            [1;34m#(Element:0xe4942c {[0m
+              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+              attributes = [ [1;34m#(Attr:0xe3f92c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mrow[1;31m"[0m[31m[0m })],
+              children = [
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0xe1a26c {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0xe18610 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcol-xs-10 col-xs-offset-1[1;31m"[0m[31m[0m })],
+                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+            [1;34m#(Element:0xb75aac {[0m
+              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+              attributes = [ [1;34m#(Attr:0xb6e3c4 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcontainer[1;31m"[0m[31m[0m })],
+              children = [
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+                [1;34m#(Element:0xae46d8 {[0m name = [31m[1;31m"[0m[31mh1[1;31m"[0m[31m[0m, attributes = [ [1;34m#(Attr:0xacbd90 {[0m name = [31m[1;31m"[0m[31malign[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcenter[1;31m"[0m[31m[0m })], children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mყველა სიახლე[1;31m"[0m[31m[0m)] }),
+                [1;34m#(Element:0xa6cf20 {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+                [1;34m#(Element:0xa30cdc {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0xa28528 {[0m name = [31m[1;31m"[0m[31malign[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcenter[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x7d3494 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0x6b0468 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpagination[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Element:0x1d27534 {[0m
+                          name = [31m[1;31m"[0m[31mul[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0x1d25db0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpagination[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Element:0x1d1873c {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1d13174 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mprev previous_page disabled[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Element:0x1d0a3a8 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1d0329c {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m#[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m← Previous[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1cea378 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1ce7254 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mactive[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Element:0x1cdd3d0 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1cdc05c {[0m name = [31m[1;31m"[0m[31mrel[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mstart[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1cdc034 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles?page=1[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1cb2e3c {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Element:0x1cb031c {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1caef1c {[0m name = [31m[1;31m"[0m[31mrel[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnext[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1caeeb8 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles?page=2[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m2[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1c84258 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Element:0x1c76e50 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1c762d4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles?page=3[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m3[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1c4f544 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1c4e874 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnext next_page [1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Element:0x1c33d30 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1c33074 {[0m name = [31m[1;31m"[0m[31mrel[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnext[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1c33038 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles?page=2[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mNext →[1;31m"[0m[31m[0m)]
+                                  })]
+                              })]
+                          })]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m  [1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1bffd00 {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0x1bfe914 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mrow[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x1be7a5c {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0x1be6814 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcol-xs-8 col-xs-offset-2[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m        [1;31m"[0m[31m[0m),
+                        [1;34m#(Element:0x1bd00a0 {[0m
+                          name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0x1bcef5c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwell well-lg[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m           [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1bba3b8 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1bb5778 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1ba3820 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1ba2718 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/13[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1b8d9d0 {[0m
+                                      name = [31m[1;31m"[0m[31mimg[1;31m"[0m[31m[0m,
+                                      attributes = [
+                                        [1;34m#(Attr:0x1b8ca1c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mimg-rounded ; img-responsive[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0x1b8ca08 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwidth:100%[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0x1b8c9f4 {[0m
+                                          name = [31m[1;31m"[0m[31msrc[1;31m"[0m[31m[0m,
+                                          value = [31m[1;31m"[0m[31mhttps://bitnewsbucket1.s3.amazonaws.com/uploads/article/articleimage/13/thumb_nicehash-miner.jpg[1;31m"[0m[31m[0m
+                                          }),
+                                        [1;34m#(Attr:0x1b8c9e0 {[0m name = [31m[1;31m"[0m[31malt[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mThumb nicehash miner[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1b4c660 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [
+                                [1;34m#(Attr:0x1b45914 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-title[1;31m"[0m[31m[0m }),
+                                [1;34m#(Attr:0x1b458d8 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1b27158 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1b26050 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/13[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mმაინინგის დაწყების მარტივი გზა. Nicehash[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1b04964 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1afd31c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-body[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              მაინინგის დასაწყებად არაა საჭირო ციფრული ტექნოლოგიების განსაკუთრებული ცოდნა.  მომხმარებლისთვის სა...[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1add314 {[0m
+                                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1ad563c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-meta-details[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1aba60c {[0m
+                                      name = [31m[1;31m"[0m[31msmall[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  Created by MR.B,[1;35m\n[0m[31m                  24 days ago,[1;35m\n[0m[31m                  last_updated: 24 days ago[1;35m\n[0m[31m                [1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m               [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1a91b1c {[0m
+                              name = [31m[1;31m"[0m[31mp[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31mკატეგორია: [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1a8caf4 {[0m
+                                  name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1a8bf64 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbadge[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Element:0x1a7825c {[0m
+                                      name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x1a6f0d0 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/6[1;31m"[0m[31m[0m })],
+                                      children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mმაინინგი[1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m  [1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;35m\n[0m[31m        [1;31m"[0m[31m[0m)]
+                          }),
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m)]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1a42db4 {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Element:0x1a29b48 {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1a25930 {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0x1a24260 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mrow[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x1a1cce0 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0x1a1b854 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcol-xs-8 col-xs-offset-2[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m        [1;31m"[0m[31m[0m),
+                        [1;34m#(Element:0x1a0efdc {[0m
+                          name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0x19ed8b4 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwell well-lg[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m           [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x19e6b18 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x19df638 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x19d5368 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x19d4404 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/12[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x19cb994 {[0m
+                                      name = [31m[1;31m"[0m[31mimg[1;31m"[0m[31m[0m,
+                                      attributes = [
+                                        [1;34m#(Attr:0x19caae4 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mimg-rounded ; img-responsive[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0x19caad0 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwidth:100%[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0x19caabc {[0m
+                                          name = [31m[1;31m"[0m[31msrc[1;31m"[0m[31m[0m,
+                                          value = [31m[1;31m"[0m[31mhttps://bitnewsbucket1.s3.amazonaws.com/uploads/article/articleimage/12/thumb_what_to_mine.jpg[1;31m"[0m[31m[0m
+                                          }),
+                                        [1;34m#(Attr:0x19caa94 {[0m name = [31m[1;31m"[0m[31malt[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mThumb what to mine[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x19a8d04 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [
+                                [1;34m#(Attr:0x19a756c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-title[1;31m"[0m[31m[0m }),
+                                [1;34m#(Attr:0x19a7544 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x199d468 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x199be4c {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/12[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mმაინინგ კალკულატორი[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1381fac {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x136c814 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-body[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              გაინტერესებთ ვიდეო ბარათი ან ASIC მაინერი რომელ კრიპტო ვალუტაზე რამდენს გამოიმუშავებს ? ამაში დაგ...[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x13019ec {[0m
+                                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x12f983c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-meta-details[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x12d95a0 {[0m
+                                      name = [31m[1;31m"[0m[31msmall[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  Created by MR.B,[1;35m\n[0m[31m                  24 days ago,[1;35m\n[0m[31m                  last_updated: 24 days ago[1;35m\n[0m[31m                [1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m               [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x128d2a4 {[0m
+                              name = [31m[1;31m"[0m[31mp[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31mკატეგორია: [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1276388 {[0m
+                                  name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1271bbc {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbadge[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Element:0x124c3bc {[0m
+                                      name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x123b1d4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/6[1;31m"[0m[31m[0m })],
+                                      children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mმაინინგი[1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m  [1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;35m\n[0m[31m        [1;31m"[0m[31m[0m)]
+                          }),
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m)]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x11b6efc {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Element:0x11b11b4 {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0xf97e78 {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0xf92824 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mrow[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0xf55e24 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0xf3edb4 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcol-xs-8 col-xs-offset-2[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m        [1;31m"[0m[31m[0m),
+                        [1;34m#(Element:0xef24b4 {[0m
+                          name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0xee56ec {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwell well-lg[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m           [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0xe6f960 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0xe6e330 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0xe48798 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0xe3e428 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/11[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0xe18804 {[0m
+                                      name = [31m[1;31m"[0m[31mimg[1;31m"[0m[31m[0m,
+                                      attributes = [
+                                        [1;34m#(Attr:0xe16734 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mimg-rounded ; img-responsive[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0xe16720 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwidth:100%[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0xe166f8 {[0m
+                                          name = [31m[1;31m"[0m[31msrc[1;31m"[0m[31m[0m,
+                                          value = [31m[1;31m"[0m[31mhttps://bitnewsbucket1.s3.amazonaws.com/uploads/article/articleimage/11/thumb_nowintstock.jpg[1;31m"[0m[31m[0m
+                                          }),
+                                        [1;34m#(Attr:0xe166e4 {[0m name = [31m[1;31m"[0m[31malt[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mThumb nowintstock[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0xab4d70 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [
+                                [1;34m#(Attr:0xaab978 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-title[1;31m"[0m[31m[0m }),
+                                [1;34m#(Attr:0xaab964 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0xa205e4 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x8868dc {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/11[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mროგორ მოვძებნო ვიდეო ბარათი?[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1d25220 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1d2471c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-body[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m               2017 წლის მეორე ნახევარი და 2018 წლის დასაწყისი გამოირჩეოდა დიდი დეფიციტით ვიდეო ბარათების ბაზარ...[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1d0e944 {[0m
+                                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1d0d800 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-meta-details[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1cf9328 {[0m
+                                      name = [31m[1;31m"[0m[31msmall[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  Created by MR.B,[1;35m\n[0m[31m                  24 days ago,[1;35m\n[0m[31m                  last_updated: 24 days ago[1;35m\n[0m[31m                [1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m               [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1cdeb54 {[0m
+                              name = [31m[1;31m"[0m[31mp[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31mკატეგორია: [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1cc97cc {[0m
+                                  name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1cc0e24 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbadge[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Element:0x1cb91b0 {[0m
+                                      name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x1cb84f4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/5[1;31m"[0m[31m[0m })],
+                                      children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკომპიუტერული ტექნიკა[1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m  [1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;35m\n[0m[31m        [1;31m"[0m[31m[0m)]
+                          }),
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m)]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1c8552c {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Element:0x1c7742c {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1c731b0 {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0x1c72314 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mrow[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x1c4f1c0 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0x1c4e234 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcol-xs-8 col-xs-offset-2[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m        [1;31m"[0m[31m[0m),
+                        [1;34m#(Element:0x1c31634 {[0m
+                          name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0x1c30658 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwell well-lg[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m           [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1c24f74 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1c22530 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1bffcec {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1bfe978 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/10[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1be74a8 {[0m
+                                      name = [31m[1;31m"[0m[31mimg[1;31m"[0m[31m[0m,
+                                      attributes = [
+                                        [1;34m#(Attr:0x1be65a8 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mimg-rounded ; img-responsive[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0x1be656c {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwidth:100%[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0x1be6544 {[0m
+                                          name = [31m[1;31m"[0m[31msrc[1;31m"[0m[31m[0m,
+                                          value = [31m[1;31m"[0m[31mhttps://bitnewsbucket1.s3.amazonaws.com/uploads/article/articleimage/10/thumb_BTCUSD-7-Feb-2018.jpg[1;31m"[0m[31m[0m
+                                          }),
+                                        [1;34m#(Attr:0x1be6530 {[0m name = [31m[1;31m"[0m[31malt[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mThumb btcusd 7 feb 2018[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1bab250 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [
+                                [1;34m#(Attr:0x1baa058 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-title[1;31m"[0m[31m[0m }),
+                                [1;34m#(Attr:0x1baa008 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1b8b9f0 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1b8aa3c {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/10[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mვაჭრობის სტრატეგია[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1b63504 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1b5bd68 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-body[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              ვაჭრობის სტრატეგია, ერთ-ერთ მთავარ როლს თამაშობს ზოგადად ბირჟაზე ვაჭრობისას, თუ ხედავთ რომ კურსთა...[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1b4c0e8 {[0m
+                                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1b44fa0 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-meta-details[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1b34858 {[0m
+                                      name = [31m[1;31m"[0m[31msmall[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  Created by joocha,[1;35m\n[0m[31m                  about 1 month ago,[1;35m\n[0m[31m                  last_updated: about 1 month ago[1;35m\n[0m[31m                [1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m               [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1b0c9e8 {[0m
+                              name = [31m[1;31m"[0m[31mp[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31mკატეგორია: [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1b049f0 {[0m
+                                  name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1afd560 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbadge[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Element:0x1ae8674 {[0m
+                                      name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x1ae0bb8 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/2[1;31m"[0m[31m[0m })],
+                                      children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკრიპტო ბირჟა[1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m  [1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;35m\n[0m[31m        [1;31m"[0m[31m[0m)]
+                          }),
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m)]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1a963d8 {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Element:0x1a8ec50 {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1a8afc4 {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0x1a8a3a8 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mrow[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x1a6d2d0 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0x1a6c1c8 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcol-xs-8 col-xs-offset-2[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m        [1;31m"[0m[31m[0m),
+                        [1;34m#(Element:0x1a5a39c {[0m
+                          name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0x1a58f60 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwell well-lg[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m           [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x1a46a40 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x1a434bc {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x1a2500c {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1a239a0 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/8[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x1a1be94 {[0m
+                                      name = [31m[1;31m"[0m[31mimg[1;31m"[0m[31m[0m,
+                                      attributes = [
+                                        [1;34m#(Attr:0x1a1ac10 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mimg-rounded ; img-responsive[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0x1a1abfc {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mwidth:100%[1;31m"[0m[31m[0m }),
+                                        [1;34m#(Attr:0x1a1abc0 {[0m
+                                          name = [31m[1;31m"[0m[31msrc[1;31m"[0m[31m[0m,
+                                          value = [31m[1;31m"[0m[31mhttps://bitnewsbucket1.s3.amazonaws.com/uploads/article/articleimage/8/thumb_chinaban2.jpg[1;31m"[0m[31m[0m
+                                          }),
+                                        [1;34m#(Attr:0x1a1abac {[0m name = [31m[1;31m"[0m[31malt[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mThumb chinaban2[1;31m"[0m[31m[0m })]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x19d5afc {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [
+                                [1;34m#(Attr:0x19d5070 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-title[1;31m"[0m[31m[0m }),
+                                [1;34m#(Attr:0x19d505c {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtext-align: center;[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x19c97d4 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x19c8af0 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles/8[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mჩინეთის ბლოკი[1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x19bd7e0 {[0m
+                              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x19bcd7c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-body[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              ჩინეთმა საბოლოოდ გადაწყვიტა დაებლოკა კრიპტო ბირჟები, როგორც ადგილობრივი ასევე უცხოური. პირველი გა...[1;35m\n[0m[31m              [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x19a76d4 {[0m
+                                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x19a66f8 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31marticle-meta-details[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                [1;31m"[0m[31m[0m),
+                                    [1;34m#(Element:0x199f6b4 {[0m
+                                      name = [31m[1;31m"[0m[31msmall[1;31m"[0m[31m[0m,
+                                      children = [
+                                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m                  Created by MR.B,[1;35m\n[0m[31m                  about 1 month ago,[1;35m\n[0m[31m                  last_updated: about 1 month ago[1;35m\n[0m[31m                [1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m              [1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;31m"[0m[31m[0m)]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m               [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x13e77d0 {[0m
+                              name = [31m[1;31m"[0m[31mp[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Text [0m[31m[1;31m"[0m[31mკატეგორია: [1;31m"[0m[31m[0m),
+                                [1;34m#(Element:0x136d9bc {[0m
+                                  name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x1365a64 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbadge[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Element:0x130dda0 {[0m
+                                      name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x130cbe4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/1[1;31m"[0m[31m[0m })],
+                                      children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკრიპტოვალუტა[1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m  [1;31m"[0m[31m[0m)]
+                                  }),
+                                [1;34m#(Element:0x12bfe48 {[0m
+                                  name = [31m[1;31m"[0m[31mspan[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x12b9a70 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mbadge[1;31m"[0m[31m[0m })],
+                                  children = [
+                                    [1;34m#(Element:0x129b4e4 {[0m
+                                      name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                      attributes = [ [1;34m#(Attr:0x12997d4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/categories/2[1;31m"[0m[31m[0m })],
+                                      children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mკრიპტო ბირჟა[1;31m"[0m[31m[0m)]
+                                      }),
+                                    [1;34m#(Text [0m[31m[1;31m"[0m[31m  [1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m            [1;35m\n[0m[31m            [1;35m\n[0m[31m        [1;31m"[0m[31m[0m)]
+                          }),
+                        [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m      [1;31m"[0m[31m[0m)]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1208b08 {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Element:0x11f0184 {[0m name = [31m[1;31m"[0m[31mbr[1;31m"[0m[31m[0m }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x11d1554 {[0m
+                  name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0x11cd79c {[0m name = [31m[1;31m"[0m[31malign[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcenter[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x11b63f8 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0x11b4788 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpagination[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Element:0xf96078 {[0m
+                          name = [31m[1;31m"[0m[31mul[1;31m"[0m[31m[0m,
+                          attributes = [ [1;34m#(Attr:0xf8b45c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpagination[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Element:0xf577d8 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0xf547cc {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mprev previous_page disabled[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Element:0xf07a08 {[0m name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m, attributes = [ [1;34m#(Attr:0xefe7c8 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m#[1;31m"[0m[31m[0m })], children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m← Previous[1;31m"[0m[31m[0m)] })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0xe6b518 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0xe65de8 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mactive[1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Element:0xe48694 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0xe3ee78 {[0m name = [31m[1;31m"[0m[31mrel[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mstart[1;31m"[0m[31m[0m }), [1;34m#(Attr:0xe3ee64 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles?page=1[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0xdec178 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Element:0xddaab8 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0xdd886c {[0m name = [31m[1;31m"[0m[31mrel[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnext[1;31m"[0m[31m[0m }), [1;34m#(Attr:0xdd8830 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles?page=2[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m2[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0xaaff78 {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              children = [
+                                [1;34m#(Element:0xa7d7d0 {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0xa783fc {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles?page=3[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m3[1;31m"[0m[31m[0m)]
+                                  })]
+                              }),
+                            [1;34m#(Text [0m[31m[1;31m"[0m[31m [1;31m"[0m[31m[0m),
+                            [1;34m#(Element:0x86c2fc {[0m
+                              name = [31m[1;31m"[0m[31mli[1;31m"[0m[31m[0m,
+                              attributes = [ [1;34m#(Attr:0x866cf8 {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnext next_page [1;31m"[0m[31m[0m })],
+                              children = [
+                                [1;34m#(Element:0x575b0c {[0m
+                                  name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                                  attributes = [ [1;34m#(Attr:0x414768 {[0m name = [31m[1;31m"[0m[31mrel[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mnext[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x412698 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m/articles?page=2[1;31m"[0m[31m[0m })],
+                                  children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mNext →[1;31m"[0m[31m[0m)]
+                                  })]
+                              })]
+                          })]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+            [1;34m#(Element:0x1cb5d6c {[0m
+              name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+              attributes = [ [1;34m#(Attr:0x1cb4e6c {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mcontainer[1;31m"[0m[31m[0m })],
+              children = [
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m  [1;31m"[0m[31m[0m),
+                [1;34m#(Element:0x1ca4c88 {[0m
+                  name = [31m[1;31m"[0m[31mfooter[1;31m"[0m[31m[0m,
+                  attributes = [ [1;34m#(Attr:0x1c9baac {[0m name = [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mfooter[1;31m"[0m[31m[0m })],
+                  children = [
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m    [1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+                    [1;34m#(Comment [0m[31m[1;31m"[0m[31m TOP.GE ASYNC COUNTER CODE [1;31m"[0m[31m[0m),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x1c4c484 {[0m
+                      name = [31m[1;31m"[0m[31mdiv[1;31m"[0m[31m[0m,
+                      attributes = [
+                        [1;34m#(Attr:0x1c31d28 {[0m name = [31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mtop-ge-counter-container[1;31m"[0m[31m[0m }),
+                        [1;34m#(Attr:0x1c31cec {[0m name = [31m[1;31m"[0m[31mdata-site-id[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m110488[1;31m"[0m[31m[0m })],
+                      children = [
+                        [1;34m#(Element:0x1c0a0c0 {[0m
+                          name = [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m,
+                          attributes = [
+                            [1;34m#(Attr:0x1c077e4 {[0m name = [31m[1;31m"[0m[31mhref[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhttp://www.top.ge/index.php?h=110488#110488[1;31m"[0m[31m[0m }),
+                            [1;34m#(Attr:0x1c077d0 {[0m name = [31m[1;31m"[0m[31mtarget[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m_blank[1;31m"[0m[31m[0m })],
+                          children = [
+                            [1;34m#(Element:0x1bc95c0 {[0m
+                              name = [31m[1;31m"[0m[31mimg[1;31m"[0m[31m[0m,
+                              attributes = [
+                                [1;34m#(Attr:0x1bc8904 {[0m
+                                  name = [31m[1;31m"[0m[31msrc[1;31m"[0m[31m[0m,
+                                  value = [31m[1;31m"[0m[31m//counter.top.ge/cgi-bin/count?ID:110488+JS:11+RAND:5020.070344332179+ISFRM:0+REFERER:+RESOLUTION:1600x900+DEPT:24[1;31m"[0m[31m[0m
+                                  }),
+                                [1;34m#(Attr:0x1bc88dc {[0m name = [31m[1;31m"[0m[31malt[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mTOP.GE[1;31m"[0m[31m[0m }),
+                                [1;34m#(Attr:0x1bc88a0 {[0m name = [31m[1;31m"[0m[31mstyle[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mborder: 0px none;[1;31m"[0m[31m[0m })]
+                              })]
+                          })]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+                    [1;34m#(Element:0x1b74980 {[0m
+                      name = [31m[1;31m"[0m[31mscript[1;31m"[0m[31m[0m,
+                      attributes = [ [1;34m#(Attr:0x1b713fc {[0m name = [31m[1;31m"[0m[31masync[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m[1;31m"[0m[31m[0m }), [1;34m#(Attr:0x1b713e8 {[0m name = [31m[1;31m"[0m[31msrc[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m//counter.top.ge/counter.js[1;31m"[0m[31m[0m })]
+                      }),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m),
+                    [1;34m#(Comment [0m[31m[1;31m"[0m[31m / END OF TOP.GE COUNTER CODE [1;31m"[0m[31m[0m),
+                    [1;34m#(Text [0m[31m[1;31m"[0m[31m    [1;35m\n[0m[31m    [1;35m\n[0m[31m    საიტი იმყოფება სატესტო რეჟიმში[1;35m\n[0m[31m  [1;31m"[0m[31m[0m)]
+                  }),
+                [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+              }),
+            [1;34m#(Text [0m[31m[1;31m"[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31m[1;31m"[0m[31m[0m)]
+          })]
+      })]
+  })

@@ -1,0 +1,97 @@
+<%= form_with(model: filtercopart, local: true) do |form| %>
+  <% if filtercopart.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(filtercopart.errors.count, "error") %> prohibited this filtercopart from being saved:</h2>
+
+      <ul>
+      <% filtercopart.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :record_status %>
+    <%= form.select :record_status, ['A', 'D']%>
+  </div>
+
+  <div class="field">
+    <%= form.label :vechile_type %>
+    <%= form.text_field :vechile_type, id: :filtercopart_vechile_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :year %>
+    <%= form.text_field :year, id: :filtercopart_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :make %>
+    <%= form.text_field :make, id: :filtercopart_make %>
+  </div>
+
+  <div class="field">
+    <%= form.label :model_group %>
+    <%= form.text_field :model_group, id: :filtercopart_model_group %>
+  </div>
+
+  <div class="field">
+    <%= form.label :model_detail %>
+    <%= form.text_field :model_detail, id: :filtercopart_model_detail %>
+  </div>
+
+  <div class="field">
+    <%= form.label :damage_description %>
+    <%= form.text_field :damage_description, id: :filtercopart_damage_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lot_cond %>
+    <%= form.text_field :lot_cond, id: :filtercopart_lot_cond %>
+  </div>
+
+  <div class="field">
+    <%= form.label :odometer %>
+    <%= form.number_field :odometer, id: :filtercopart_odometer %>
+  </div>
+
+  <div class="field">
+    <%= form.label :engine %>
+    <%= form.text_field :engine, id: :filtercopart_engine %>
+  </div>
+
+  <div class="field">
+    <%= form.label :drive %>
+    <%= form.text_field :drive, id: :filtercopart_drive %>
+  </div>
+
+  <div class="field">
+    <%= form.label :transmission %>
+    <%= form.text_field :transmission, id: :filtercopart_transmission %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fuel_type %>
+    <%= form.text_field :fuel_type, id: :filtercopart_fuel_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :runs_drives %>
+    <%= form.text_field :runs_drives, id: :filtercopart_runs_drives %>
+  </div>
+
+  <div class="field">
+    <%= form.label :location_city %>
+    <%= form.text_field :location_city, id: :filtercopart_location_city %>
+  </div>
+
+  <div class="field">
+    <%= form.label :buy_it_now_price %>
+    <%= form.text_field :buy_it_now_price, id: :filtercopart_buy_it_now_price %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "დამახსოვრება" %>
+  </div>
+<% end %>

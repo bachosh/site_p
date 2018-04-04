@@ -1,0 +1,2 @@
+class Copart < ApplicationRecord
+end

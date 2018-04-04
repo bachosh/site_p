@@ -1,0 +1,130 @@
+<head>
+<style>
+  table#t01 tr#t02 {
+      border: 1px solid black;
+        border-collapse: collapse;    
+      color: black;
+      padding: 5px;
+      font-size: 15px;
+
+      margin: auto;
+      width: 60%;
+  }
+
+
+th#t03 {
+      border: 1px solid black;
+        border-collapse: collapse;    
+      color: black;
+      padding: 5px;
+      font-size: 15px;
+
+      margin: auto;
+      width: auto;
+
+      background-color: #6a99c8;
+  }
+
+th#t07 {
+      border: 1px solid black;
+        border-collapse: collapse;    
+      color: black;
+      padding: 5px;
+      font-size: 15px;
+
+      margin: auto;
+      width: auto;
+
+      background-color: #6a99c8;
+  }
+
+
+
+#t04
+  {border: 1px solid black;
+     border-collapse: collapse; 
+     color: black;
+   }
+
+#t05
+  {border: 1px solid black;
+     border-collapse: collapse; 
+     color: black;
+   padding: 5px;     
+   }
+
+
+table#t01 tr:nth-child(even) {
+      background-color: #eee;
+    }
+
+table#t01 tr:nth-child(odd) {
+      background-color:#fff;
+       }
+
+</style>
+</head>
+
+<body>
+
+<div align="center">
+
+<p id="notice"><%= notice %></p>
+
+<h1>არსებული ფილტრები</h1>
+
+<table id="t01">
+  <thead>
+    <tr id="t02">
+      <th id="t03">Record status</th>
+      <th id="t03">Vechile type</th>
+      <th id="t03">Year</th>
+      <th id="t03">Make</th>
+      <th id="t03">Model group</th>
+      <th id="t03">Model detail</th>
+      <th id="t03">Damage description</th>
+      <th id="t03">Lot cond</th>
+      <th id="t03">Odometer</th>
+      <th id="t03">Engine</th>
+      <th id="t03">Drive</th>
+      <th id="t03">Transmission</th>
+      <th id="t03">Fuel type</th>
+      <th id="t03">Runs drives</th>
+      <th id="t03">Location city</th>
+      <th id="t03">Buy it now price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @filtercoparts.each do |filtercopart| %>
+      <tr id="t04">
+        <td id="t05"><%= filtercopart.record_status %></td>
+        <td id="t05"><%= filtercopart.vechile_type %></td>
+        <td id="t05"><%= filtercopart.year %></td>
+        <td id="t05"><%= filtercopart.make %></td>
+        <td id="t05"><%= filtercopart.model_group %></td>
+        <td id="t05"><%= filtercopart.model_detail %></td>
+        <td id="t05"><%= filtercopart.damage_description %></td>
+        <td id="t05"><%= filtercopart.lot_cond %></td>
+        <td id="t05"><%= filtercopart.odometer %></td>
+        <td id="t05"><%= filtercopart.engine %></td>
+        <td id="t05"><%= filtercopart.drive %></td>
+        <td id="t05"><%= filtercopart.transmission %></td>
+        <td id="t05"><%= filtercopart.fuel_type %></td>
+        <td id="t05"><%= filtercopart.runs_drives %></td>
+        <td id="t05"><%= filtercopart.location_city %></td>
+        <td id="t05"><%= filtercopart.buy_it_now_price %></td>
+        <td id="t05"><%= link_to 'ჩვენება', filtercopart %></td>
+        <td id="t05"><%= link_to 'რედაქტირება', edit_filtercopart_path(filtercopart) %></td>
+        <td id="t05"><%= link_to 'წაშლა', filtercopart, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'ახალი ფილტრის დამატება', new_filtercopart_path %>
+
+</div>

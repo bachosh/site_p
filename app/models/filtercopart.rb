@@ -1,0 +1,2 @@
+class Filtercopart < ApplicationRecord
+end

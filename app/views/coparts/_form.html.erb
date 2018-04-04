@@ -1,0 +1,37 @@
+<%= form_with(model: copart, local: true) do |form| %>
+  <% if copart.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(copart.errors.count, "error") %> prohibited this copart from being saved:</h2>
+
+      <ul>
+      <% copart.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :record_status %>
+    <%= form.text_field :record_status, id: :copart_record_status %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lot_n %>
+    <%= form.text_field :lot_n, id: :copart_lot_n %>
+  </div>
+
+  <div class="field">
+    <%= form.label :row_hash %>
+    <%= form.text_area :row_hash, id: :copart_row_hash %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lot_img_fld %>
+    <%= form.text_field :lot_img_fld, id: :copart_lot_img_fld %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

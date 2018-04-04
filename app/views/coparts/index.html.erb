@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Coparts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Record status</th>
+      <th>Lot n</th>
+      <th>Row hash</th>
+      <th>Lot img fld</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @coparts.each do |copart| %>
+      <tr>
+        <td><%= copart.record_status %></td>
+        <td><%= copart.lot_n %></td>
+        <td><%= copart.row_hash %></td>
+        <td><%= copart.lot_img_fld %></td>
+        <td><%= link_to 'Show', copart %></td>
+        <td><%= link_to 'Edit', edit_copart_path(copart) %></td>
+        <td><%= link_to 'Destroy', copart, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Copart', new_copart_path %>

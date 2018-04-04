@@ -1,0 +1,2 @@
+module CopartsHelper
+end

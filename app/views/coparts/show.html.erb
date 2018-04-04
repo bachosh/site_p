@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Record status:</strong>
+  <%= @copart.record_status %>
+</p>
+
+<p>
+  <strong>Lot n:</strong>
+  <%= @copart.lot_n %>
+</p>
+
+<p>
+  <strong>Row hash:</strong>
+  <%= @copart.row_hash %>
+</p>
+
+<p>
+  <strong>Lot img fld:</strong>
+  <%= @copart.lot_img_fld %>
+</p>
+
+<%= link_to 'Edit', edit_copart_path(@copart) %> |
+<%= link_to 'Back', coparts_path %>
