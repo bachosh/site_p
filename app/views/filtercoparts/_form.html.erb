@@ -14,6 +14,11 @@
   <div class="field">
     <%= form.label :record_status %>
     <%= form.select :record_status, ['A', 'D']%>
+  </div>sale_date
+
+    <div class="field">
+    <%= form.label :sale_date %>
+    <%= form.text_field :sale_date, id: :filtercopart_sale_date %>
   </div>
 
   <div class="field">
@@ -40,6 +45,11 @@
     <%= form.label :model_detail %>
     <%= form.text_field :model_detail, id: :filtercopart_model_detail %>
   </div>
+
+  <div class="field">
+    <%= form.label :color %>
+    <%= form.text_field :color, id: :filtercopart_color %>
+  </div>  
 
   <div class="field">
     <%= form.label :damage_description %>

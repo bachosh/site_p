@@ -69,6 +69,9 @@ class FiltercopartsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def filtercopart_params
-      params.require(:filtercopart).permit(:record_status, :vechile_type, :year, :make, :model_group, :model_detail, :damage_description, :lot_cond, :odometer, :engine, :drive, :transmission, :fuel_type, :runs_drives, :location_city, :buy_it_now_price)
+      params.require(:filtercopart).permit(:record_status, :vechile_type, :year, 
+        :make, :model_group, :model_detail, :damage_description, :lot_cond, 
+        :odometer, :engine, :drive, :transmission, :fuel_type, :runs_drives, :location_city, 
+        :buy_it_now_price, :color, :sale_date)
     end
 end

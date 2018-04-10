@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180403164853) do
+ActiveRecord::Schema.define(version: 20180407144234) do
 
   create_table "copartflts", force: :cascade do |t|
     t.string "record_status"
@@ -77,6 +77,8 @@ ActiveRecord::Schema.define(version: 20180403164853) do
     t.string "buy_it_now_price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "color"
+    t.string "sale_date"
   end
 
   create_table "filterlinks", force: :cascade do |t|

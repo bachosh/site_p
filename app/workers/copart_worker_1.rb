@@ -49,7 +49,7 @@ if !col.nil?
  rowhash[csv_colname] = csv_column_val
 end  #if 
 
-if !fcolname.nil?
+if !fcolname.nil? and !fcolname.empty?
   fil_column_val=filtercopart.send fcolname
   if !fil_column_val.nil?  
     puts "sadziebo parametri: " + fcolname
@@ -170,7 +170,9 @@ Copart.create(record_status: "N", lot_n: rowhash["Lot number"], row_hash: rowhas
 end #if not bad 
 
 end # pars line row
-rescue CSV::MalformedCSVError => er
+
+rescue Exception => er
+#rescue CSV::MalformedCSVError => er
 	puts er.message
 	counter += 1
 next

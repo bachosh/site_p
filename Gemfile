@@ -8,7 +8,9 @@ end
 #gem 'pry-rails'
 gem 'watir'
 
+gem 'selenium-webdriver'
 
+gem 'whenever', require: false
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
@@ -42,7 +44,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
-  gem 'selenium-webdriver'
+  #gem 'selenium-webdriver'
 end
 
 group :development do
