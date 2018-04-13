@@ -40,6 +40,6 @@ every 1.day, :at => '10:20 am' do
   runner "Copartjob.d_csv"
 end
 
-every 1.day, :at => '10:53 am' do
+every 1.day, :at => '15:04 pm' do
   runner "Copartjob.run_filter"
 end

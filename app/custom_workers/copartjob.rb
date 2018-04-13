@@ -44,6 +44,21 @@ ENV['DISPLAY'] = ":0"
 require "csv"
 csv_folder_name = File.join Rails.root, 'csv_storage', 'fld-' + Date.today.to_s
 csv_file_pth = File.join csv_folder_name , "salesdata.csv"
+
+
+puts "Starting Firefox"
+	profile = Selenium::WebDriver::Firefox::Profile.new
+	profile['browser.download.dir'] = csv_folder_name
+	profile['browser.download.folderList'] = 2
+	profile['browser.helperApps.neverAsk.saveToDisk'] = "text/plain, application/octet-stream , application/csv"
+	#profile['browser.download.manager.showAlertOnComplete'] = false
+
+	browser = Watir::Browser.start('https://www.copart.com/login/',:firefox, profile: profile)
+	browser.text_field(name: "username").set "joocha2@gmail.com"
+	browser.text_field(name: "password").set "1OA7dXdR"
+	browser.button("data-uname"=>"loginSigninmemberbutton").click
+        sleep 10 
+
 #CSV.parse(csv_file_pth.read.gsub /\r/, '')
 #CSV.parse(csv_file_pth.read.gsub /"/, '')
 rowhash = {}
@@ -112,8 +127,9 @@ else
 end #if 
 
 
-#puts "is good? " + @isgood.to_s
-#puts "is bad? " + @isbad.to_s
+puts "is good? " + @isgood.to_s
+puts "is bad? " + @isbad.to_s
+
 #puts "--------------------------------------------- "
 rownum = rownum + 1
 
@@ -200,8 +216,8 @@ end #if not bad
 
 end # pars line row
 
-rescue Exception => er
-#rescue CSV::MalformedCSVError => er
+#rescue Exception => er
+rescue CSV::MalformedCSVError => er
 	puts er.message
 	counter += 1
 next
@@ -211,5 +227,6 @@ end  # begin
 end # FILE line csv  
 
 end # Filtercopart
+browser.close
 end # run filter
 end # class
