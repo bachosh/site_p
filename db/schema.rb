@@ -12,43 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20180407144234) do
 
-  create_table "copartflts", force: :cascade do |t|
-    t.string "record_status"
-    t.integer "lot_number"
-    t.string "vechile_type"
-    t.string "year"
-    t.string "make"
-    t.string "model_group"
-    t.string "model_detail"
-    t.string "damage_description"
-    t.string "secondary_damage"
-    t.string "lot_cond"
-    t.string "vin"
-    t.integer "odometer"
-    t.string "odometer_brand"
-    t.string "est_retailvalue"
-    t.string "repair_cost"
-    t.string "engine"
-    t.string "drive"
-    t.string "transmission"
-    t.string "fuel_type"
-    t.integer "cylinders"
-    t.string "runs_drives"
-    t.string "location_city"
-    t.string "location_state"
-    t.string "location_zip"
-    t.string "location_country"
-    t.string "currency_code"
-    t.string "image_thumbnail"
-    t.date "create_date_time"
-    t.string "buy_it_now_price"
-    t.string "image_url"
-    t.string "trim"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "image_location"
-  end
-
   create_table "coparts", force: :cascade do |t|
     t.string "record_status"
     t.string "lot_n"

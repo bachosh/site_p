@@ -1,5 +1,5 @@
  #!/bin/bash
-PIDFILE=/home/ba/Desktop/RoR/skyscraper/tmp/pids/filter_copa.pid
+PIDFILE=/home/ba/Desktop/RoR/site_p/tmp/pids/filter_copa.pid
 
 if [ -f $PIDFILE ]
 then
@@ -26,6 +26,6 @@ else
     exit 1
   fi
 fi
-
-/bin/bash -l -c 'cd home/ba/Desktop/RoR/skyscraper && bin/rails runner -e production '\''Copart.download_csv'\'''
+#'cd home/ba/Desktop/RoR/skyscraper && bin/rails runner -e production '\''Copartjob.d_csv'\'''
+'rails runner -e production '\''Copartjob.abc'\'''
 rm $PIDFILE
