@@ -30,3 +30,8 @@ end
 every 1.day, :at => '12:04 pm' do
   runner "Copartjob.run_filter"
 end
+
+
+every '@reboot' do
+  command 'cd /home/ba/Desktop/RoR/skyscraper/ && RAILS_ENV=production rails s'
+end
