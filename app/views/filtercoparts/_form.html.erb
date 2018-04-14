@@ -14,7 +14,7 @@
   <div class="field">
     <%= form.label :record_status %>
     <%= form.select :record_status, ['A', 'D']%>
-  </div>sale_date
+  </div>
 
     <div class="field">
     <%= form.label :sale_date %>
@@ -27,8 +27,13 @@
   </div>
 
   <div class="field">
-    <%= form.label :year %>
+    <%= form.label :year_from %>
     <%= form.text_field :year, id: :filtercopart_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :year_to %>
+    <%= form.text_field :to_year, id: :filtercopart_year %>
   </div>
 
   <div class="field">
@@ -62,8 +67,13 @@
   </div>
 
   <div class="field">
-    <%= form.label :odometer %>
+    <%= form.label :odometer_from %>
     <%= form.number_field :odometer, id: :filtercopart_odometer %>
+  </div>
+
+  <div class="field">
+    <%= form.label :odometer_to %>
+    <%= form.number_field :to_odometer, id: :filtercopart_to_odometer %>
   </div>
 
   <div class="field">
@@ -96,10 +106,7 @@
     <%= form.text_field :location_city, id: :filtercopart_location_city %>
   </div>
 
-  <div class="field">
-    <%= form.label :buy_it_now_price %>
-    <%= form.text_field :buy_it_now_price, id: :filtercopart_buy_it_now_price %>
-  </div>
+
 
   <div class="actions">
     <%= form.submit "დამახსოვრება" %>

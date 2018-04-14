@@ -28,7 +28,7 @@ class FiltercopartsController < ApplicationController
 
     respond_to do |format|
       if @filtercopart.save
-        format.html { redirect_to @filtercopart, notice: 'Filtercopart was successfully created.' }
+        format.html { redirect_to @filtercopart, notice: 'Copart Filter was successfully created.' }
         format.json { render :show, status: :created, location: @filtercopart }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class FiltercopartsController < ApplicationController
   def update
     respond_to do |format|
       if @filtercopart.update(filtercopart_params)
-        format.html { redirect_to @filtercopart, notice: 'Filtercopart was successfully updated.' }
+        format.html { redirect_to @filtercopart, notice: 'Copart Filter was successfully updated.' }
         format.json { render :show, status: :ok, location: @filtercopart }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class FiltercopartsController < ApplicationController
   def destroy
     @filtercopart.destroy
     respond_to do |format|
-      format.html { redirect_to filtercoparts_url, notice: 'Filtercopart was successfully destroyed.' }
+      format.html { redirect_to filtercoparts_url, notice: 'Copart Filter was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -72,6 +72,6 @@ class FiltercopartsController < ApplicationController
       params.require(:filtercopart).permit(:record_status, :vechile_type, :year, 
         :make, :model_group, :model_detail, :damage_description, :lot_cond, 
         :odometer, :engine, :drive, :transmission, :fuel_type, :runs_drives, :location_city, 
-        :buy_it_now_price, :color, :sale_date)
+        :buy_it_now_price, :color, :sale_date , :to_year, :to_odometer)
     end
 end

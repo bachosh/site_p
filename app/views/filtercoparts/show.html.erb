@@ -39,11 +39,10 @@ table#t01 tr:nth-child(odd) {
 
 <p id="notice"><%= notice %></p>
 
-
 <table align="center" id="t01">
   <tr>
     <td id="td-left"> 
-      <%= link_to 'მთავარ გვერძე დაბრუნება', filtercoparts_path, class: "btn btn-xs btn-success"  %>
+      <%= link_to 'მთავარ გვერდზე დაბრუნება',  filtercoparts_path, method: :get, class: "btn btn-xs btn-success"  %>
     </td> 
     <td id="td-right">
       <%= link_to 'ჩანაწერის რედაქტირება',  edit_filtercopart_path(@filtercopart) , class: "btn btn-xs btn-primary" %>
@@ -57,7 +56,7 @@ table#t01 tr:nth-child(odd) {
   <tr>
     <td id="td-left">Record status:</td> 
     <td id="td-right"><%= @filtercopart.record_status %></td>
-  </tr>sale_date
+  </tr>
 
   <tr>
     <td id="td-left">sale_date:</td> 
@@ -70,10 +69,13 @@ table#t01 tr:nth-child(odd) {
   </tr>
 
   <tr>
-    <td id="td-left">Year:</td> 
+    <td id="td-left">Year_from:</td> 
     <td id="td-right"><%= @filtercopart.year %></td>
   </tr>
-
+  <tr>
+    <td id="td-left">Year_to:</td> 
+    <td id="td-right"><%= @filtercopart.to_year %></td>
+  </tr>
   <tr>
     <td id="td-left">Make:</td> 
     <td id="td-right"> <%= @filtercopart.make %></td>
@@ -105,9 +107,14 @@ table#t01 tr:nth-child(odd) {
   </tr>
 
   <tr>
-    <td id="td-left">Odometer:</td> 
+    <td id="td-left">Odometer_from:</td> 
     <td id="td-right">  <%= @filtercopart.odometer %></td>
   </tr>
+  <tr>
+    <td id="td-left">Odometer_to:</td> 
+    <td id="td-right">  <%= @filtercopart.to_odometer %></td>
+  </tr>
+
 
   <tr>
     <td id="td-left">Engine:</td> 
@@ -139,10 +146,6 @@ table#t01 tr:nth-child(odd) {
     <td id="td-right">  <%= @filtercopart.location_city %></td>
   </tr>
 
-  <tr>
-    <td id="td-left">Buy it now price</td> 
-    <td id="td-right">  <%= @filtercopart.buy_it_now_price %></td>
-  </tr>
 
 
 </table>

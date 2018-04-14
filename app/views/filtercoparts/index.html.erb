@@ -78,21 +78,23 @@ table#t01 tr:nth-child(odd) {
     <tr id="t02">
       <th id="t03">Record status</th>
       <th id="t03">Vechile type</th>
-      <th id="t03">Year</th>
+      <th id="t03">Year_from</th>
+      <th id="t03">Year_to</th>
       <th id="t03">Make</th>
       <th id="t03">Model group</th>
       <th id="t03">Model detail</th>
       <th id="t03">Color</th>      
       <th id="t03">Damage description</th>
       <th id="t03">Lot cond</th>
-      <th id="t03">Odometer</th>
+      <th id="t03">Odometer from</th>
+      <th id="t03">Odometer to</th>
       <th id="t03">Engine</th>
       <th id="t03">Drive</th>
       <th id="t03">Transmission</th>
       <th id="t03">Fuel type</th>
       <th id="t03">Runs drives</th>
       <th id="t03">Location city</th>
-      <th id="t03">Buy it now price</th>
+
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -103,23 +105,25 @@ table#t01 tr:nth-child(odd) {
         <td id="t05"><%= filtercopart.record_status %></td>
         <td id="t05"><%= filtercopart.vechile_type %></td>
         <td id="t05"><%= filtercopart.year %></td>
+        <td id="t05"><%= filtercopart.to_year %></td> 
         <td id="t05"><%= filtercopart.make %></td>
         <td id="t05"><%= filtercopart.model_group %></td>
         <td id="t05"><%= filtercopart.model_detail %></td>
-         <td id="t05"><%= filtercopart.color %></td>
+        <td id="t05"><%= filtercopart.color %></td>
         <td id="t05"><%= filtercopart.damage_description %></td>
         <td id="t05"><%= filtercopart.lot_cond %></td>
         <td id="t05"><%= filtercopart.odometer %></td>
+        <td id="t05"><%= filtercopart.to_odometer %></td>
         <td id="t05"><%= filtercopart.engine %></td>
         <td id="t05"><%= filtercopart.drive %></td>
         <td id="t05"><%= filtercopart.transmission %></td>
         <td id="t05"><%= filtercopart.fuel_type %></td>
         <td id="t05"><%= filtercopart.runs_drives %></td>
         <td id="t05"><%= filtercopart.location_city %></td>
-        <td id="t05"><%= filtercopart.buy_it_now_price %></td>
+
         <td id="t05"><%= link_to 'ჩვენება', filtercopart %></td>
         <td id="t05"><%= link_to 'რედაქტირება', edit_filtercopart_path(filtercopart) %></td>
-        <td id="t05"><%= link_to 'წაშლა', filtercopart, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td id="t05"><%= link_to 'წაშლა', filtercopart_path(filtercopart), method: :delete, data: { confirm: 'ნამდვილად გსურთ წაშლა?' } %></td>
       </tr>
     <% end %>
   </tbody>

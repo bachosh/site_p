@@ -23,23 +23,10 @@ env :PATH, ENV['PATH']
 
 set :output, '/home/ba/Desktop/RoR/cron1.log'
 
-every 1.day, :at => '10:04 am' do
-   
-   command "which ruby"
-   command "which gem "
-   command "which rails"
-   command "which bundle"
-   command "echo $DISPLAY"
-   command "xclock"
-   command "cd /home/ba/Desktop/job_1 && ruby job_2.rb"
-   #script  "cd /home/ba/Desktop/job_1 && ruby job_2.rb"
-end
-
-
-every 1.day, :at => '10:20 am' do
+every 1.day, :at => '02:47 pm' do
   runner "Copartjob.d_csv"
 end
 
-every 1.day, :at => '15:04 pm' do
+every 1.day, :at => '12:04 pm' do
   runner "Copartjob.run_filter"
 end

@@ -102,21 +102,41 @@ col = Filterlink.find_by(csv_header_numb: rownum)
 if !col.nil?
  fcolname = col.column_name
  csv_colname = col.csv_header_name
- rowhash[csv_colname] = csv_column_val
+ rowhash[csv_colname] = csv_column_val  
 end  #if 
 
 if !fcolname.nil? and !fcolname.empty?
   fil_column_val=filtercopart.send fcolname
   if !fil_column_val.nil?  
-    #puts "sadziebo parametri: " + fcolname
-    #puts "filter value: " + fil_column_val
-    #puts "CSV file value: " + csv_column_val
+#########################################################################################################
+#    puts "sadziebo parametri: " + fcolname
+#    puts "filter col value: " + fil_column_val.to_s
+#    puts "CSV file value: " + csv_column_val.to_s
+#debugger #########################################################################################################
+
 
    if  !csv_column_val.nil? && !csv_column_val.empty?
-	if !fil_column_val.empty? and  fil_column_val != csv_column_val  
+	if !fil_column_val.to_s.empty? and  fil_column_val != csv_column_val and !["year","odometer"].include?(fcolname)   
 	  @isbad = true 	
-	elsif !fil_column_val.nil? and fil_column_val == csv_column_val and @isbad == false
-	  @isgood = true	
+	elsif !fil_column_val.nil? and fil_column_val == csv_column_val and @isbad == false and !["year","odometer"].include?(fcolname)
+	  @isgood = true
+        elsif !fcolname.nil? and @isbad == false and fcolname == "year"	
+          if filtercopart.correct_year(csv_column_val) 
+            then
+             @isbad = false 
+             @isgood = true
+          else
+             @isbad = true            
+          end 
+        elsif !fcolname.nil? and @isbad == false and fcolname == "odometer"
+
+          if filtercopart.correct_odo(csv_column_val) 
+            then
+             @isbad = false 
+             @isgood = true
+          else
+             @isbad = true            
+          end 
 	end   #if 
    end # if	
 	   
@@ -127,8 +147,8 @@ else
 end #if 
 
 
-puts "is good? " + @isgood.to_s
-puts "is bad? " + @isbad.to_s
+#puts "is good? " + @isgood.to_s
+#puts "is bad? " + @isbad.to_s
 
 #puts "--------------------------------------------- "
 rownum = rownum + 1
@@ -138,9 +158,8 @@ end # csv_column_val
 if @isgood  && !@isbad and !rowhash["Lot number"].nil? && !rowhash["Image URL"].nil?
  #puts rowhash["Lot number"]
  #puts rowhash["Image URL"]
-
+#debugger ######################################################################################
 puts "## Download Image ###################################################################"
-## images 1 ##################################################################################
 require 'open-uri'
 
 @doc = Nokogiri::HTML(open(rowhash["Image URL"])) 
@@ -210,14 +229,14 @@ end # if
 Copart.create(record_status: "N", lot_n: rowhash["Lot number"], row_hash: rowhash, lot_img_fld: pic_folder_name )
 
 ###########################################################
- else
+ #else
  #puts "wrong lot"
 end #if not bad 
 
 end # pars line row
 
-#rescue Exception => er
-rescue CSV::MalformedCSVError => er
+rescue Exception => er
+#rescue CSV::MalformedCSVError => er
 	puts er.message
 	counter += 1
 next
